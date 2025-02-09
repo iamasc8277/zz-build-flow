@@ -33,6 +33,6 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/iamasc8277/zz-flow:latest
-            ghcr.io/iamasc8277/zz-flow:${{ env.sha_short }}
+            ghcr.io/iamasc8277/zz-build-flow:latest
+            ghcr.io/iamasc8277/zz-build-flow:${{ env.sha_short }}
           provenance: false
